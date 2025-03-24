@@ -1,16 +1,57 @@
-# projectest
+```md
+# Quizzy  
 
-A new Flutter project.
+## Description  
+Quizzy is a Flutter-based quiz application designed to provide an interactive and engaging classroom experience. The app allows students and teachers to log in, participate in quiz sessions, and receive notifications.  
 
-## Getting Started
+## Features  
+- **Student and Teacher Login**  
+- **Firebase Integration** for real-time data storage  
+- **Push Notifications** using `flutter_local_notifications`  
+- **Modern UI with Material 3**  
 
-This project is a starting point for a Flutter application.
+## Installation  
 
-A few resources to get you started if this is your first Flutter project:
+1. **Clone the Repository**  
+   ```sh
+   git clone <repository-url>
+   cd quizzy
+   ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. **Install Dependencies**  
+   ```sh
+   flutter pub get
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. **Set Up Firebase**  
+   - Create a Firebase project  
+   - Download `google-services.json` (Android) and `GoogleService-Info.plist` (iOS)  
+   - Place them in the respective platform directories (`android/app/` and `ios/Runner/`)  
+
+4. **Run the App**  
+   ```sh
+   flutter run
+   ```
+
+## Project Structure  
+```sh
+lib/
+│── main.dart                # Main entry point  
+│── studentlogin.dart        # Student login screen  
+│── teacherlogin.dart        # Teacher login screen  
+│── firebase_options.dart    # Firebase configuration  
+```
+
+## Dependencies  
+- `flutter_local_notifications`  
+- `firebase_core`  
+- `firebase_auth` (if authentication is implemented)  
+- `flutter/material.dart`  
+
+## Screenshots  
+(Add images of your app here)  
+
+## License  
+This project is licensed under the MIT License.  
+```
+
