@@ -1,4 +1,4 @@
-```md
+
 # Quizzy  
 
 ## Description  
